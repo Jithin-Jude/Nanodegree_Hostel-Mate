@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Hostel Mate</string>
+    <string name="title_activity_issue_status">Issue Status</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="reported_issues">Reported Issues</string>
+
+    <string-array name="block_list">
+        <item>Select Block</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <string-array name="room_list">
+        <item>Select Room</item>
+        <item>810</item>
+        <item>811</item>
+        <item>812</item>
+        <item>813</item>
+        <item>814</item>
+        <item>815</item>
+        <item>816</item>
+        <item>817</item>
+        <item>818</item>
+        <item>819</item>
+        <item>820</item>
+        <item>821</item>
+        <item>822</item>
+        <item>823</item>
+        <item>824</item>
+        <item>825</item>
+        <item>826</item>
+        <item>827</item>
+        <item>828</item>
+        <item>829</item>
+        <item>830</item>
+        <item>831</item>
+        <item>832</item>
+        <item>833</item>
+        <item>834</item>
+        <item>835</item>
+        <item>836</item>
+        <item>837</item>
+        <item>838</item>
+        <item>839</item>
+        <item>840</item>
+    </string-array>
+    <string name="notifications">Notifications</string>
+    <string name="change_password">Change Password</string>
+    <string name="inmates_login">Inmates Login</string>
+    <string name="receptionist_login">Receptionist Login</string>
+    <string name="a_hostel_issue_reporting_system">A hostel issue reporting system</string>
+    <string name="no_network">no network</string>
+    <string name="no_network_turn_on_network_and_restart_hostel_mate">No network! Turn on network and restart Hostel Mate</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="issue_title">Issue Title :</string>
+    <string name="block">Block :</string>
+    <string name="room_number">Room Number :</string>
+    <string name="issue_description">Issue description :</string>
+    <string name="create_issue">Create Issue</string>
+    <string name="_812">812</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="status">Status</string>
+    <string name="fixed">Fixed</string>
+    <string name="b">B</string>
+    <string name="issue_reported_by">Issue reported by :</string>
+    <string name="jithinkjose2020_cs_ajce_in">jithinkjose2020@cs.ajce.in</string>
+    <string name="mark_as_fixed">Mark as Fixed</string>
+    <string name="fan_damaged">Fan damaged</string>
+    <string name="_02_0818">02/0818</string>
+    <string name="b_812">B, 812</string>
+    <string name="control_panel">Control Panel</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="new_password_please">New password please</string>
+    <string name="user_name_value">amaljyothi</string>
+    <string name="password_updated">Password updated</string>
+    <string name="google_sign_in_failed">Google sign in failed</string>
+    <string name="signIn_with_credential_failure">signInWithCredential:failure</string>
+    <string name="welcome">Welcome</string>
+</resources>

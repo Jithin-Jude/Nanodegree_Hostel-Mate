@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "704912703596",
+    "firebase_url": "https://hostelmate-9a6c9.firebaseio.com",
+    "project_id": "hostelmate-9a6c9",
+    "storage_bucket": "hostelmate-9a6c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704912703596:android:64b9231328db1aa3",
+        "android_client_info": {
+          "package_name": "com.mountzoft.hostelmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704912703596-g0055maltvsnh9dtb7qpku3neqpm5v8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mountzoft.hostelmate",
+            "certificate_hash": "15599d76ee4ad584647a30870631e2911db4d80f"
+          }
+        },
+        {
+          "client_id": "704912703596-5crobpsbbepbfuhjr4495k8k8pfnblf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mountzoft.hostelmate",
+            "certificate_hash": "88342ba364f795cc3f80d85268ac3947dff8d154"
+          }
+        },
+        {
+          "client_id": "704912703596-prroi5t1rddece4hknsj5r0tr1e8gmjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl_dBzUInZVJjKMK8VEImTCKameHvDCJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704912703596-prroi5t1rddece4hknsj5r0tr1e8gmjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
