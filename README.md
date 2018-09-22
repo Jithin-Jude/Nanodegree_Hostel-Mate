@@ -33,4 +33,4 @@ Receptionist Login username : amaljyothi
 
 Receptionist Login password : 777
 
-I have tested the App in two of my friends devices (Oreo/Lolipop). I can't find any issues with Inmates Login.
+I have tested the App in two of my friends' devices (Oreo/Lolipop). I can't find any issues with Inmates Login. I'm always able to log in and log out in both release and debug version.
