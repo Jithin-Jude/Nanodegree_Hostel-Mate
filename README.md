@@ -24,3 +24,13 @@ User Interface
 -
 ![befunky-collage](https://user-images.githubusercontent.com/20029287/45881004-75f60880-bdc7-11e8-8be2-1384ceb71f5b.jpg)
 ![befunky-collage 1](https://user-images.githubusercontent.com/20029287/45881007-7b535300-bdc7-11e8-873d-fcdaa66026d0.jpg)
+
+Notes for Reviewer
+-
+That was such a great review sir. I actually forgot to give you the receptionist login Username & Password in the previous submission.
+
+Receptionist Login username : amaljyothi
+
+Receptionist Login password : 777
+
+I have tested the App in two of my friends devices (Oreo/Lolipop). I can't find any issues with Inmates Login.
