@@ -6,8 +6,6 @@ import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -82,10 +80,10 @@ public class ReceptionLoginActivity extends AppCompatActivity {
             sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
             editor = sharedPreferences.edit();
             editor.putString("FIRST_TIME_CHECK","admin");
-            editor.commit();
+            editor.apply();
             finish();
         }else{
-            Toast.makeText(this,"Authentication failed! Please try again. Maybe a network issue!",Toast.LENGTH_LONG)
+            Toast.makeText(this, R.string.reception_login_failed_info,Toast.LENGTH_LONG)
                     .show();
         }
     }

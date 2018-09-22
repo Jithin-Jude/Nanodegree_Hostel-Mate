@@ -54,7 +54,7 @@
                 android:resource="@xml/widget_for_inmates_info" />
         </receiver>
 
-        <activity android:name=".NoNetwork"></activity>
+        <activity android:name=".NoNetwork" />
     </application>
 
 </manifest>

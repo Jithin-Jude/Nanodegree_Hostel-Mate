@@ -37,5 +37,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/rv_issue_status"
         app:layout_constraintEnd_toEndOf="@+id/rv_issue_status"
         app:layout_constraintStart_toStartOf="@+id/rv_issue_status"
-        app:layout_constraintTop_toTopOf="@+id/rv_issue_status" />
+        app:layout_constraintTop_toTopOf="@+id/rv_issue_status"
+        tools:targetApi="lollipop" />
 </android.support.constraint.ConstraintLayout>

@@ -4,15 +4,15 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
     xmlns:android="http://schemas.android.com/apk/res/android">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/colorAccent"
-    android:orientation="vertical"
-    android:gravity="top"
-    tools:context=".ControlPanelActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:gravity="top"
+        tools:context=".ControlPanelActivity">
 
     <Switch
         android:id="@+id/notification_switch"
@@ -40,7 +40,8 @@
         android:textSize="18sp"
         android:padding="8dp"
         android:clickable="true"
-        android:onClick="changePassword"/>
+        android:onClick="changePassword"
+        android:focusable="true" />
 
     <View
         android:layout_width="fill_parent"

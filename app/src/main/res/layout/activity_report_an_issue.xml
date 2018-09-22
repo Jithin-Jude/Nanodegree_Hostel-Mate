@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
-        android:elevation="8dp">
+        android:elevation="8dp"
+        tools:targetApi="lollipop">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -31,6 +32,7 @@
                 android:focusable="true"
                 android:onClick="takePhoto"
                 android:src="@drawable/open_cam"
+                android:contentDescription="@string/issue_image_here"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
@@ -64,6 +66,8 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:text="CFL light holder damaged"
+                android:hint="@string/issue_title"
+                android:textColorHint="#000000"
                 android:textColor="#000000"
                 android:textCursorDrawable="@null"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -172,6 +176,8 @@
                 android:textColor="#000000"
                 android:textCursorDrawable="@null"
                 android:inputType="textMultiLine"
+                android:hint="@string/issue_description"
+                android:textColorHint="#000000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.941"
                 app:layout_constraintStart_toStartOf="parent"

@@ -1,17 +1,11 @@
 package com.mountzoft.hostelmate;
 
-import android.app.Notification;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.os.Build;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -21,7 +15,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -79,7 +72,7 @@ public class ReportedIssuesActivity extends AppCompatActivity {
 
                 if(!sharedPreferences.getBoolean("NOTIFICATIONS_ON", false)){
                     editor.putInt("NUMBER_OF_ISSUES",issueList.size());
-                    editor.commit();
+                    editor.apply();
                 }
 
                 RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rv_reported_issues);

@@ -107,4 +107,11 @@
     <string name="google_sign_in_failed">Google sign in failed</string>
     <string name="signIn_with_credential_failure">signInWithCredential:failure</string>
     <string name="welcome">Welcome</string>
+    <string name="issue_image_here">Issue image here</string>
+    <string name="report_a_new_issue">Report a new issue</string>
+    <string name="reception_login_failed_info">Authentication failed! Please try again. Maybe a network issue!</string>
+    <string name="photo_of_reported_issue">photo of reported issue</string>
+    <string name="issue_fixed_tick_mark">Issue fixed tick mark</string>
+    <string name="thumbnail_of_issue">thumbnail of issue</string>
+    <string name="issue_status_indicator">Issue status indicator</string>
 </resources>
