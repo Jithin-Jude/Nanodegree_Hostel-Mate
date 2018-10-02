@@ -4,7 +4,7 @@
 
 ![banner](https://user-images.githubusercontent.com/20029287/46324719-881b4680-c612-11e8-92b6-5bb5882b2abd.jpg)
 
-# Capstone Project Stage 1 :- Hostel Mate
+# Capstone Project Stage 2 :- Hostel Mate
 
 ![cover](https://user-images.githubusercontent.com/20029287/45880101-75a83e00-bdc4-11e8-8415-429d2af7067d.JPG)
 
